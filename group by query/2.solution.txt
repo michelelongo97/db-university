@@ -1,2 +1,6 @@
-1. Selezionare tutti gli studenti iscritti al Corso di Laurea in Economia
+2. Contare gli insegnanti che hanno l'ufficio nello stesso edificio
+
+SELECT count(`id`), `office_address`
+FROM `teachers`
+GROUP BY `office_address`
     
